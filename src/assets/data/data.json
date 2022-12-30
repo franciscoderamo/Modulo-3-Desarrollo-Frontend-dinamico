@@ -1,0 +1,177 @@
+{
+  "name": "Francisco D'Eramo",
+  "resume": "Fullstack Developer · UX/UI Designer · Film Director",
+  "description": "Produciendo trabajo de calidad como realizador audiovisual. Experiencia en WordPress, diseño UI/UX y conocimientos de desarrollo web.",
+
+  "about":{
+    "image": "assets/img/about.jpg",
+    "description": "Soy un amante de viajar, del futbol, el diseño y la programación. A mis 17 años realicé un viaje de intercambio cultural por un año a Portugal. Estudie Lic. en Artes Audiovisuales y desde hace 3 años estudio Ing. en Informática."
+  },
+
+  "experience": [{
+    "ages": "10",
+    "position": "Diseñador Freelance"
+  },
+  {
+    "ages": "07",
+    "position": "Realizador Audiovisual"
+  },
+  {
+    "ages": "03",
+    "position": "Desarrollador Web"
+  }
+],
+
+  "skill": [{
+    "category": "Designer",
+    "ages": "10 años",
+    "tuple": {"Photoshop":90, "Ilustrator":60,"Premiere":90, "After Effect":80,"Figma":75}
+  },
+  {
+    "category": "Realizador Audiovisual",
+    "ages": "7 años",
+    "tuple": {"Pre-producción":80, "Cámara":90,"Sonido":70, "Edición":90,"Motion Graphics":60}
+  },
+  {
+    "category": "Aplicaciones de Office",
+    "ages": "7 años",
+    "tuple": {"Microsoft Word":90, "Microsoft Excel":70,"Microsoft PowerPoint":80, "S.O. Windows 7/11":70}
+  },
+  {
+    "category": "WordPress developer SSR",
+    "ages": "3 años",
+    "tuple": {"WordPress":80, "WooCommerce":70,"Elementor Pro":70, "Yoast SEO":60, "Filezilla":90, "SSL certificate":80}
+  },
+  {
+    "category": "Frontend developer Jr",
+    "ages": "2 años",
+    "tuple": {"HTML":80, "CSS":70,"Bootstrap":70, "JavaScript & TypeScript":50,"Angular":60}
+  },
+  {
+    "category": "Backend developer Jr",
+    "ages": "1 año",
+    "tuple": {"Git & Github":70, "MySQL":70,"Java":50, "Spring Boot":50}
+  },
+  {
+    "category": "Otras tecnologías aprendidas",
+    "ages": "6 meses",
+    "tuple": {"Python":30, "C++":30,"Haskell":30, "Prolog":30, "Wollok":30}
+  }
+],
+
+  "studies": [{
+      "career": "Lic. en Artes Audiovisuales",
+      "institution": "UNDAV",
+      "start": 2012,
+      "end": 2015
+    },
+    {
+      "career": "Professional Webmaster",
+      "institution": "UTN",
+      "start": 2016,
+      "end": 2016
+    },
+    {
+      "career": "Ing. en Informática",
+      "institution": "UNDAV",
+      "start": 2020,
+      "end": 2025
+    },
+    {
+      "career": "Argentina Programa",
+      "institution": "Min. Desarrollo, CESSI e INTI",
+      "start": 2022,
+      "end": 2023
+    }
+  ],
+  "worked": [{
+    "job": "Diseñador gráfico",
+    "business": "La Merced Patagonia Producciones",
+    "start": 2009,
+    "end": 2010
+  },
+  {
+    "career": "Diseñador & E-Commerce Manager",
+    "institution": "HTG Computación",
+    "start": 2013,
+    "end": 2015
+  },
+  {
+    "career": "Editor Audiovisual",
+    "institution": "La Chispa Films",
+    "start": 2015,
+    "end": 2016
+  },
+  {
+    "career": "Diseñador y Realizador Audiovisual",
+    "institution": "Freelance",
+    "start": 2016,
+    "end": 2022
+  }
+],
+  "services": [{
+    "name": "Desarrollo web en WordPress & Diseño Ui/Ux",
+    "items": ["Desarrollo de páginas web","Desarrollar la interfaz de usuario","Creo interacciones de elementos UX", "Posicionar la marca de su proyecto o empresa"]
+  },
+  {
+    "name": "Realización Audiovisual & Edición de video",
+    "items": ["Videos institucionales y corporativos","Cobertura de eventos y clipping","Video promocional", "Realización en estudio","Motion Graphics","Postproducción audiovisual"]
+  },
+  {
+    "name": "Diseño digital & Community Manager",
+    "items": ["Diseño gráfico","Community Manager","Email marketing", "Facebook Ads & Google Ads"]
+  }
+],
+  "portfolio": [{
+    "image": "assets/img/portfolio1.jpg",
+    "title": "Website moderno",
+    "description": "Sitio web de EPCIR INGENIERIA, adaptable a todos los dispositivos, con componentes UI e interacciones animadas.",
+    "link": "https://epciringenieria.com.ar/"
+  },
+  {
+    "image": "assets/img/portfolio2.jpg",
+    "title": "Reel DAFSCODE",
+    "description": "Un video donde se incluyen diferentes clips de los trabajos realizados a lo largo del año.",
+    "link": "https://www.youtube.com/watch?v=lvvoKjrV87A&ab_channel=Dafscode"
+  },
+  {
+    "image": "assets/img/portfolio3.jpg",
+    "title": "Website oficial",
+    "description": "Sitio web responsive del Dpto. de Medio Ambiente, Aseo y Ornato, de la Ilustre Municipalidad de Freire, Chile.",
+    "link": "https://medioambientefreire.cl/"
+  },
+  {
+    "image": "assets/img/portfolio4.jpg",
+    "title": "Compostaje Lautaro",
+    "description": "Plataforma colaborativa sobre reciclaje en el marco de una licitación para la Ilustre Municipalidad de Lautaro, Chile.",
+    "link": "#"
+  },
+  {
+    "image": "assets/img/portfolio5.jpg",
+    "title": "Video promocional",
+    "description": "Propiedad en venta: Casa estilo mediterranea en Villarrica, Chile.",
+    "link": "https://youtu.be/GIyx2Fm0bq8"
+  },
+  {
+    "image": "assets/img/portfolio6.jpg",
+    "title": "Website responsive",
+    "description": "Sitio web de Eficiencia Verde que incluye un blog sobre Educación Ambiental.",
+    "link": "https://eficienciaverde.com.ar/"
+  },
+  {
+    "image": "assets/img/portfolio7.jpg",
+    "title": "Tienda online",
+    "description": "Sitio web de Infinita Beauty, un centro-academia de belleza. Tienda realizada con WooCommerce.",
+    "link": "https://infinitabeauty.com.ar/"
+  },
+  {
+    "image": "assets/img/portfolio8.jpg",
+    "title": "Plataformas E-Learning",
+    "description": "Website My cake your cakes  de la chef July, reconocida pastelera plant based de Colombia.",
+    "link": "https://mycakesyourcakes.com/"
+  }
+],
+  "whatsapp": "+54 9 (011) 5312-9350",
+  "email": "franciscoderamo@gmail.com",
+  "ubication": "Ciudad de Buenos Aires (Argentina)"
+}
