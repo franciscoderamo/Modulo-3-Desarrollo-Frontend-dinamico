@@ -13,7 +13,7 @@ import { ProjectComponent } from './componentes/project/project.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CargarScripsService } from './cargar-scrips.service';
+import { CargarScriptsService } from './servicios/cargar-scripts.service';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { CargarScripsService } from './cargar-scrips.service';
     HttpClientModule
   ],
   providers: [
-    CargarScripsService
+    CargarScriptsService
   ],
   bootstrap: [AppComponent]
 })
