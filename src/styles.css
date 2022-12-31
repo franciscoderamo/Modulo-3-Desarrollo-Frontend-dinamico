@@ -862,6 +862,7 @@ img {
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: "";
+  font-size: 30px !important;
 }
 
 .swiper-portfolio-icon {
@@ -870,11 +871,11 @@ img {
 }
 
 .swiper-button-prev {
-  left: -0.5rem;
+  left: -0.4rem !important;
 }
 
 .swiper-button-next {
-  right: -0.5rem;
+  right: -0.4rem !important;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets {

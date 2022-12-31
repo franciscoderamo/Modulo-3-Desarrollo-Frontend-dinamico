@@ -6,12 +6,12 @@
           <swiper
           [slidesPerView]="1"
           [spaceBetween]="0"
-          [navigation]="false"
-          [pagination]="{ clickable: false }"
+          [navigation]="true"
           >
-          <ng-template swiperSlide>
-          <div class="swiper-wrapper">
-              <div class="portfolio__content grid swiper-slide" *ngFor="let portfolio of portfolioList">
+          <!-- [pagination]="{ clickable: true }" -->
+          <ng-template swiperSlide *ngFor="let portfolio of portfolioList">
+            <div class="swiper-wrapper">
+              <div class="portfolio__content grid swiper-slide">
 
               <!--==================== WORKED ====================-->
                   <img [src]="portfolio.image" alt="" class="portfolio__img">
@@ -29,15 +29,15 @@
         </swiper>
 
           <!-- Add Arrows -->
-          <div class="swiper-button-next">
+          <!-- <div class="swiper-button-next">
               <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
           </div>
           <div class="swiper-button-prev">
               <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
+          </div> -->
 
           <!-- Add pagination -->
-          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-pagination"></div> -->
     </div>
 
 </section>

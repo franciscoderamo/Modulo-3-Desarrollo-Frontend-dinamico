@@ -4,6 +4,7 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 
+
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination]);
 
