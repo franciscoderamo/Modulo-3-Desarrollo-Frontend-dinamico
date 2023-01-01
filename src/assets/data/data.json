@@ -3,6 +3,11 @@
   "resume": "Fullstack Developer · UX/UI Designer · Film Director",
   "description": "Produciendo trabajo de calidad como realizador audiovisual. Experiencia en WordPress, diseño UI/UX y conocimientos de desarrollo web.",
 
+  "form": [{
+    "value":{"email": "mail@email.com", "password": 12341234}
+    }
+  ],
+
   "about":{
     "image": "assets/img/about.jpg",
     "description": "Soy un amante de viajar, del futbol, el diseño y la programación. A mis 17 años realicé un viaje de intercambio cultural por un año a Portugal. Estudie Lic. en Artes Audiovisuales y desde hace 3 años estudio Ing. en Informática."
