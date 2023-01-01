@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './componentes/login/login.component';
-import { HomeComponent } from './componentes/home/home.component';
+import { CVComponent } from './componentes/cv/cv.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: CVComponent},
   {path: 'login', component: LoginComponent},
 ];
 
