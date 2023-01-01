@@ -17,6 +17,9 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CargarScriptsService } from './servicios/cargar-scripts.service';
 import { LoginComponent } from './componentes/login/login.component';
+import { PageNotFoundComponent } from './componentes/page-not-found/page-not-found.component';
+import { RouterModule } from '@angular/router';
+import { CVComponent } from './componentes/cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,9 @@ import { LoginComponent } from './componentes/login/login.component';
     ProjectComponent,
     ContactComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    PageNotFoundComponent,
+    CVComponent
   ],
   imports: [
     AppRoutingModule,
@@ -39,8 +44,12 @@ import { LoginComponent } from './componentes/login/login.component';
     FormsModule,
     ReactiveFormsModule,
     SwiperModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    RouterModule.forRoot([
+      {path: '', redirectTo: '/cv', pathMatch: 'full'},
+      {path: '**', component: PageNotFoundComponent}
+  ])
+],
   providers: [
     CargarScriptsService
   ],
