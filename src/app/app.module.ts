@@ -1,8 +1,12 @@
 import { AppRoutingModule } from './app-routing.module';
-import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SwiperModule } from 'swiper/angular';
+import { NgModule } from '@angular/core';
+import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
+// Components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { HomeComponent } from './componentes/home/home.component';
@@ -14,12 +18,11 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
 import { ProjectComponent } from './componentes/project/project.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http';
-import { CargarScriptsService } from './servicios/cargar-scripts.service';
 import { LoginComponent } from './componentes/login/login.component';
 import { PageNotFoundComponent } from './componentes/page-not-found/page-not-found.component';
-import { RouterModule } from '@angular/router';
 import { CVComponent } from './componentes/cv/cv.component';
+// Services
+import { CargarScriptsService } from './servicios/cargar-scripts.service';
 
 @NgModule({
   declarations: [
@@ -42,6 +45,8 @@ import { CVComponent } from './componentes/cv/cv.component';
     AppRoutingModule,
     BrowserModule,
     FormsModule,
+    NgbPaginationModule,
+    NgbAlertModule,
     ReactiveFormsModule,
     SwiperModule,
     HttpClientModule,
