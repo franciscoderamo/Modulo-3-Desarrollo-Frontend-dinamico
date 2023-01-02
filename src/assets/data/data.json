@@ -3,6 +3,36 @@
   "resume": "Fullstack Developer · UX/UI Designer · Film Director",
   "description": "Produciendo trabajo de calidad como realizador audiovisual. Experiencia en WordPress, diseño UI/UX y conocimientos de desarrollo web.",
 
+  "menu":[{
+    "titulo": "Inicio",
+    "icon": "uil-estate nav__icon",
+    "url": "#home"
+  },{
+    "titulo": "Sobre mi",
+    "icon": "uil-user nav__icon",
+    "url": "#about"
+  },{
+    "titulo": "Habilidades",
+    "icon": "uil-file-alt nav__icon",
+    "url": "#skills"
+  },{
+    "titulo": "Servicios",
+    "icon": "uil-briefcase-alt nav__icon",
+    "url": "#services"
+  },{
+    "titulo": "Portfolio",
+    "icon": "uil-scenery nav__icon",
+    "url": "#portfolio"
+  },{
+    "titulo": "Contáctame",
+    "icon": "uil-message nav__icon",
+    "url": "#contact"
+  },{
+    "titulo": "Login",
+    "icon": "uil-estate nav__icon",
+    "url": "/login"
+  }],
+
   "form": [{
     "value":{"email": "mail@email.com", "password": 12341234}
     }

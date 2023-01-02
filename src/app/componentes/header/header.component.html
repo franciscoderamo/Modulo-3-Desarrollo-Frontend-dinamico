@@ -5,13 +5,13 @@
 
     <div class="nav__menu" id="nav-menu">
       <ul class="nav__list grid">
-        <li class="nav__item">
-          <a href="#home" class="nav__link noSelect active-link">
-            <i class="uil uil-estate nav__icon"></i> Inicio
+        <li class="nav__item" *ngFor="let data of miMenu">
+          <a href="{{data.url}}" class="nav__link noSelect active-link">
+            <i class="uil {{data.icon}}"></i> {{data.titulo}}
           </a>
         </li>
 
-        <li class="nav__item">
+        <!-- <li class="nav__item">
           <a href="#about" class="nav__link noSelect">
             <i class="uil uil-user nav__icon"></i> Sobre mi
           </a>
@@ -39,7 +39,7 @@
           <a href="#contact" class="nav__link noSelect">
             <i class="uil uil-message nav__icon"></i> Contáctame
           </a>
-        </li>
+        </li> -->
       </ul>
       <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
     </div>
