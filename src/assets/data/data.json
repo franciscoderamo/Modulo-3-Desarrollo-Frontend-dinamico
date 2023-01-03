@@ -34,7 +34,7 @@
   }],
 
   "form": [{
-    "value":{"email": "mail@email.com", "password": 12341234}
+    "value":{"username": "francisco", "email": "mail@email.com", "password": 12341234}
     }
   ],
 

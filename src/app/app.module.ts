@@ -48,11 +48,11 @@ import { AuthService } from './servicios/auth.service'
     AppRoutingModule,
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     NgbAccordionModule,
     NgbPaginationModule,
     NgbAlertModule,
     NgbProgressbarModule,
-    ReactiveFormsModule,
     SwiperModule,
     HttpClientModule,
     RouterModule

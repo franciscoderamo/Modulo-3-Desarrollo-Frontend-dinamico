@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 // Service
-import { AuthService } from 'src/app/servicios/auth.service';
+//import { AuthService } from 'src/app/servicios/auth.service';
 // importamos las librerias de formulario que vamos a necesitar
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -12,25 +12,30 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 export class LoginComponent implements OnInit {
   form: FormGroup;
-  email = '';
-  password = '';
+  //email = '';
+  //password = '';
 
   // Inyectar en el constructor el formBuilder
-  constructor(private formBuilder: FormBuilder, public authService: AuthService){
+  constructor(private formBuilder: FormBuilder){ //, public authService: AuthService
     ///Creamos el grupo de controles para el formulario de login
     this.form= this.formBuilder.group({
+      username:['',[Validators.required, Validators.minLength(5),Validators.maxLength(12)]],
       password:['',[Validators.required, Validators.minLength(8)]],
       email:['', [Validators.required, Validators.email]],
    })
   }
 
-  login(){
-    // El servicio authService. login ya redirecciona
-    // en caso de inicio de sesión positivo
-    this.authService.login(this.email, this.password)
-  }
+  // login(){
+  //   // El servicio authService. login ya redirecciona
+  //   // en caso de inicio de sesión positivo
+  //   this.authService.login(this.email, this.password)
+  // }
 
   ngOnInit() {}
+
+  get Username(){
+    return this.form.get("username");
+  }
 
   get Password(){
     return this.form.get("password");
@@ -38,6 +43,10 @@ export class LoginComponent implements OnInit {
 
   get Mail(){
    return this.form.get("email");
+  }
+
+  get UsernameValid(){
+    return this.Username?.touched && !this.Username?.valid;
   }
 
   get PasswordValid(){

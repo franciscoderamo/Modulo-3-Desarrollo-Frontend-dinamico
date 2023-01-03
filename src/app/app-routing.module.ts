@@ -9,7 +9,6 @@ import { ProfileComponent } from './componentes/profile/profile.component';
 
 const routes: Routes = [
   {path: '', component: CVComponent},
-  //{path: '', redirectTo: '/cv', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
   {path: 'profile', component: ProfileComponent},//Agregar canActivate: [AuthGuard]} solo es accesible si el usuario esta logueado
   {path: '**', component: PageNotFoundComponent}
