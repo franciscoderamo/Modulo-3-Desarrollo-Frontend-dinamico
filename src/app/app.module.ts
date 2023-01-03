@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SwiperModule } from 'swiper/angular';
 import { NgModule } from '@angular/core';
-import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAccordionModule, NgbPaginationModule, NgbAlertModule, NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
 // Components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
@@ -18,11 +18,13 @@ import { PortfolioComponent } from './componentes/portfolio/portfolio.component'
 import { ProjectComponent } from './componentes/project/project.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { LoginComponent } from './componentes/login/login.component';
 import { PageNotFoundComponent } from './componentes/page-not-found/page-not-found.component';
 import { CVComponent } from './componentes/cv/cv.component';
+import { LoginComponent } from './componentes/login/login.component';
+import { ProfileComponent } from './componentes/profile/profile.component';
 // Services
 import { CargarScriptsService } from './servicios/cargar-scripts.service';
+import { AuthService } from './servicios/auth.service'
 
 @NgModule({
   declarations: [
@@ -39,24 +41,24 @@ import { CargarScriptsService } from './servicios/cargar-scripts.service';
     FooterComponent,
     LoginComponent,
     PageNotFoundComponent,
-    CVComponent
+    CVComponent,
+    ProfileComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     FormsModule,
+    NgbAccordionModule,
     NgbPaginationModule,
     NgbAlertModule,
+    NgbProgressbarModule,
     ReactiveFormsModule,
     SwiperModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      {path: '', redirectTo: '/cv', pathMatch: 'full'},
-      {path: '**', component: PageNotFoundComponent}
-  ])
+    RouterModule
 ],
   providers: [
-    CargarScriptsService
+    CargarScriptsService,
   ],
   bootstrap: [AppComponent]
 })
