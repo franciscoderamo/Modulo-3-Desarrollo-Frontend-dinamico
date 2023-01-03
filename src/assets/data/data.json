@@ -57,38 +57,56 @@
   }
 ],
 
-  "skill": [{
+  "skills": [{
+    "id": "category-skill1",
     "category": "Designer",
+    "icon": "uil uil-swatchbook",
     "ages": "10 años",
-    "tuple": {"Photoshop":90, "Ilustrator":60,"Premiere":90, "After Effect":80,"Figma":75}
+    "tuple": [{"name":"Photoshop","percentage":90},
+              {"name":"Ilustrator","percentage":60},
+              {"name":"Premiere","percentage":90},
+              {"name":"After Effect","percentage":80},
+              {"name":"Figma","percentage":75}]
   },
   {
+    "id": "category-skill2",
     "category": "Realizador Audiovisual",
+    "icon": "uil uil-film",
     "ages": "7 años",
     "tuple": {"Pre-producción":80, "Cámara":90,"Sonido":70, "Edición":90,"Motion Graphics":60}
   },
   {
+    "id": "category-skill3",
     "category": "Aplicaciones de Office",
+    "icon": "uil uil-windows",
     "ages": "7 años",
     "tuple": {"Microsoft Word":90, "Microsoft Excel":70,"Microsoft PowerPoint":80, "S.O. Windows 7/11":70}
   },
   {
+    "id": "category-skill4",
     "category": "WordPress developer SSR",
+    "icon": "uil uil-wordpress-simple",
     "ages": "3 años",
     "tuple": {"WordPress":80, "WooCommerce":70,"Elementor Pro":70, "Yoast SEO":60, "Filezilla":90, "SSL certificate":80}
   },
   {
+    "id": "category-skill5",
     "category": "Frontend developer Jr",
+    "icon": "uil uil-brackets-curly",
     "ages": "2 años",
     "tuple": {"HTML":80, "CSS":70,"Bootstrap":70, "JavaScript & TypeScript":50,"Angular":60}
   },
   {
+    "id": "category-skill6",
     "category": "Backend developer Jr",
+    "icon": "uil uil-server-network-alt",
     "ages": "1 año",
     "tuple": {"Git & Github":70, "MySQL":70,"Java":50, "Spring Boot":50}
   },
   {
+    "id": "category-skill7",
     "category": "Otras tecnologías aprendidas",
+    "icon": "uil uil-arrow",
     "ages": "6 meses",
     "tuple": {"Python":30, "C++":30,"Haskell":30, "Prolog":30, "Wollok":30}
   }
