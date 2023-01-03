@@ -1,23 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+// Service
+import { AuthService } from 'src/app/servicios/auth.service';
 // importamos las librerias de formulario que vamos a necesitar
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
-  templateUrl: 'login.component.html',
+  templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
 
 export class LoginComponent implements OnInit {
   form: FormGroup;
+  email = '';
+  password = '';
 
   // Inyectar en el constructor el formBuilder
-  constructor(private formBuilder: FormBuilder){
+  constructor(private formBuilder: FormBuilder, public authService: AuthService){
     ///Creamos el grupo de controles para el formulario de login
     this.form= this.formBuilder.group({
       password:['',[Validators.required, Validators.minLength(8)]],
       email:['', [Validators.required, Validators.email]],
    })
+  }
+
+  login(){
+    // El servicio authService. login ya redirecciona
+    // en caso de inicio de sesión positivo
+    this.authService.login(this.email, this.password)
   }
 
   ngOnInit() {}
@@ -38,7 +48,6 @@ export class LoginComponent implements OnInit {
     return false
   }
 
-
   onEnviar(event: Event){
     // Detenemos la propagación o ejecución del compotamiento submit de un form
     event.preventDefault;
@@ -53,6 +62,4 @@ export class LoginComponent implements OnInit {
     }
 
   }
-
-
 }
