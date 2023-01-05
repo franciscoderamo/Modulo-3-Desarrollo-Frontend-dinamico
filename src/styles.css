@@ -83,6 +83,36 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
+/*========== Modify BOOTSTRAP Styles ==========*/
+.progress-bar{
+  background-color: var(--first-color);
+}
+/* Accordion*/
+
+.accordion {
+  --bs-accordion-color: #fff0ff00;
+  --bs-accordion-bg: #fff0ff00;
+  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+  --bs-accordion-border-color: #fff0ff00;
+  --bs-accordion-border-width: 1px;
+  --bs-accordion-border-radius: 0.375rem;
+  --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: #fff0ff00;
+  --bs-accordion-btn-bg: #fff0ff00;
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-180deg);
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-focus-border-color: #fff0ff00;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #fff0ff00;
+  --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 1rem;
+  --bs-accordion-active-color: #fff0ff00;
+  --bs-accordion-active-bg: #fff0ff00;
+}
+
+
 /*========== Button Dark/Light ==========*/
 
 .nav__btns {
@@ -432,7 +462,7 @@ img {
 .skills__header{
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-2-5) ;
+  /*margin-bottom: var(--mb-2-5);*/
   cursor: pointer;
 }
 
@@ -448,6 +478,7 @@ img {
 
 .skills__title{
   font-size: var(--h3-font-size);
+  margin-bottom: 0px;
 }
 
 .skills__subtitle{
@@ -460,6 +491,10 @@ img {
   transition: .4s;
 }
 
+.skills__data {
+  margin-bottom: var(--mb-1);
+}
+
 .skills__list{
   row-gap: 1.5rem;
   padding-left: 2.7rem;
@@ -468,12 +503,15 @@ img {
 .skills__titles{
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
 }
 
 .skills__name{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+}
+
+.skills__number {
+  color: var(--text-color);
 }
 
 .skills__bar,
@@ -490,157 +528,6 @@ img {
   display: block;
   background-color: var(--first-color);
 }
-
-/* Designer  */
-
-.skills__figma{
-  width: 75%;
-}
-
-.skills__photoshop{
-  width: 90%;
-}
-
-.skills__ilustrator{
-  width: 60%;
-}
-
-.skills__premiere{
-  width: 90%;
-}
-
-.skills__aftereffect{
-  width: 80%;
-}
-
-/* Realizador audiovisual  */
-
-.skills__preproduccion{
-  width: 80%;
-}
-
-.skills__camara{
-  width: 90%;
-}
-
-.skills__sonido{
-  width: 70%;
-}
-
-.skills__edicion{
-  width: 90%;
-}
-
-.skills__motiongraphics{
-  width: 60%;
-}
-
-/* Aplicaciones de Office  */
-
-.skills__word{
-  width: 90%;
-}
-
-.skills__excel{
-  width: 70%;
-}
-
-.skills__ppt{
-  width: 80%;
-}
-
-.skills__windows{
-  width: 70%;
-}
-
-/* WordPress developer  */
-.skills__wordpress{
-  width: 80%;
-}
-
-.skills__woocommerce{
-  width: 70%;
-}
-
-.skills__elementor{
-  width: 70%;
-}
-
-.skills__seo{
-  width: 60%;
-}
-
-.skills__filezilla{
-  width: 90%;
-}
-
-.skills__ssl{
-  width: 80%;
-}
-
-/* Frontend developer  */
-
-.skills__html{
-  width: 80%;
-}
-
-.skills__css{
-  width: 70%;
-}
-
-.skills__bootstrap{
-  width: 70%;
-}
-
-.skills__js-ts{
-  width: 50%;
-}
-
-.skills__angular{
-  width: 60%;
-}
-
-/* Backend developer  */
-
-.skills__github{
-  width: 70%;
-}
-
-.skills__mysql{
-  width: 70%;
-}
-
-.skills__java{
-  width: 50%;
-}
-
-.skills__springboot{
-  width: 50%;
-}
-
-/* Otras tecnologías aprendidas  */
-
-.skills__python{
-  width: 30%;
-}
-
-.skills__cplus{
-  width: 30%;
-}
-
-.skills__haskell{
-  width: 30%;
-}
-
-.skills__prolog{
-  width: 30%;
-}
-
-.skills__wollok{
-  width: 30%;
-}
-
-/* Cierre  */
 
 .skills__close .skills__list{
   height: 0;
@@ -915,9 +802,6 @@ img {
   width: 232px;
   justify-self: center;
 }
-
-/*==================== TESTIMONIAL ====================*/
-
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
