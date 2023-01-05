@@ -1,8 +1,13 @@
 {
-  "name": "Francisco D'Eramo",
-  "resume": "Fullstack Developer · UX/UI Designer · Film Director",
-  "description": "Produciendo trabajo de calidad como realizador audiovisual. Experiencia en WordPress, diseño UI/UX y conocimientos de desarrollo web.",
-
+  "user":{
+    "name": "Francisco D'Eramo",
+    "resume": "Fullstack Developer · UX/UI Designer · Film Director",
+    "description": "Produciendo trabajo de calidad como realizador audiovisual. Experiencia en WordPress, diseño UI/UX y conocimientos de desarrollo web.",
+    "whatsapp": "+54 9 (011) 5312-9350",
+    "email": "franciscoderamo@gmail.com",
+    "ubication": "Ciudad de Buenos Aires",
+    "country": "Argentina"
+},
   "menu":[{
     "titulo": "Inicio",
     "icon": "uil-estate nav__icon",
@@ -56,59 +61,97 @@
     "position": "Desarrollador Web"
   }
 ],
+  "skillDesigner":[
+    {"id": 0,"name":"Photoshop","percentage":90},
+    {"id": 0,"name":"Ilustrator","percentage":60},
+    {"id": 0,"name":"Premiere","percentage":90},
+    {"id": 0,"name":"After Effect","percentage":80},
+    {"id": 0,"name":"Figma","percentage":75}
+  ],
+  "skillRealizadorAudiovisual":[
+    {"id": 1,"name":"Pre-producción","percentage":80},
+    {"id": 1,"name":"Cámara","percentage":90},
+    {"id": 1,"name":"Sonido","percentage":70},
+    {"id": 1,"name":"Edición","percentage":90},
+    {"id": 1,"name":"Motion Graphics","percentage":60}
+  ],
+  "skillAplicacionesOffice":[
+    {"id": 2,"name":"Microsoft Word","percentage":90},
+    {"id": 2,"name":"Microsoft Excel","percentage":70},
+    {"id": 2,"name":"Microsoft PowerPoint","percentage":80},
+    {"id": 2,"name":"S.O. Windows 7/11","percentage":70}
+  ],
+  "skillWordPress":[
+    {"id": 3,"name":"WordPress","percentage":80},
+    {"id": 3,"name":"WooCommerce","percentage":70},
+    {"id": 3,"name":"Elementor Pro","percentage":70},
+    {"id": 3,"name":"Yoast SEO","percentage":60},
+    {"id": 3,"name":"SSL certificate","percentage":80}
+  ],
+  "skillFrontendDeveloper":[
+    {"id": 4,"name":"HTML","percentage":80},
+    {"id": 4,"name":"CSS","percentage":70},
+    {"id": 4,"name":"Bootstrap","percentage":70},
+    {"id": 4,"name":"JavaScript & TypeScript","percentage":50},
+    {"id": 5,"name":"Git & Github","percentage":70},
+    {"id": 4,"name":"Angular","percentage":60}
+  ],
+  "skillBackendDeveloper":[
+    {"id": 5,"name":"MySQL","percentage":70},
+    {"id": 5,"name":"Git & Github","percentage":70},
+    {"id": 5,"name":"Java","percentage":50},
+    {"id": 4,"name":"JavaScript & TypeScript","percentage":50},
+    {"id": 5,"name":"Spring Boot","percentage":50}
+  ],
+  "skillOtrasTecnologias":[
+    {"id": 6,"name":"Python","percentage":40},
+    {"id": 6,"name":"C++","percentage":30},
+    {"id": 6,"name":"Haskell","percentage":40},
+    {"id": 6,"name":"Prolog","percentage":40},
+    {"id": 6,"name":"Wollok","percentage":40}
+  ],
 
   "skills": [{
-    "id": "category-skill1",
+    "id": "0",
     "category": "Designer",
-    "icon": "uil uil-swatchbook",
-    "ages": "10 años",
-    "tuple": [{"name":"Photoshop","percentage":90},
-              {"name":"Ilustrator","percentage":60},
-              {"name":"Premiere","percentage":90},
-              {"name":"After Effect","percentage":80},
-              {"name":"Figma","percentage":75}]
+    "icon": "uil-swatchbook",
+    "ages": "10 años"
   },
   {
-    "id": "category-skill2",
+    "id": "1",
     "category": "Realizador Audiovisual",
-    "icon": "uil uil-film",
-    "ages": "7 años",
-    "tuple": {"Pre-producción":80, "Cámara":90,"Sonido":70, "Edición":90,"Motion Graphics":60}
+    "icon": "uil-film",
+    "ages": "7 años"
   },
   {
-    "id": "category-skill3",
+    "id": "2",
     "category": "Aplicaciones de Office",
-    "icon": "uil uil-windows",
-    "ages": "7 años",
-    "tuple": {"Microsoft Word":90, "Microsoft Excel":70,"Microsoft PowerPoint":80, "S.O. Windows 7/11":70}
+    "icon": "uil-windows",
+    "ages": "7 años"
   },
   {
-    "id": "category-skill4",
+    "id": "3",
     "category": "WordPress developer SSR",
-    "icon": "uil uil-wordpress-simple",
-    "ages": "3 años",
-    "tuple": {"WordPress":80, "WooCommerce":70,"Elementor Pro":70, "Yoast SEO":60, "Filezilla":90, "SSL certificate":80}
+    "icon": "uil-wordpress-simple",
+    "ages": "3 años"
   },
   {
-    "id": "category-skill5",
+    "id": "4",
     "category": "Frontend developer Jr",
-    "icon": "uil uil-brackets-curly",
-    "ages": "2 años",
-    "tuple": {"HTML":80, "CSS":70,"Bootstrap":70, "JavaScript & TypeScript":50,"Angular":60}
+    "icon": "uil-brackets-curly",
+    "ages": "2 años"
   },
   {
-    "id": "category-skill6",
+    "id": "5",
     "category": "Backend developer Jr",
-    "icon": "uil uil-server-network-alt",
-    "ages": "1 año",
-    "tuple": {"Git & Github":70, "MySQL":70,"Java":50, "Spring Boot":50}
+    "icon": "uil-server-network-alt",
+    "ages": "1 año"
   },
   {
-    "id": "category-skill7",
+    "id": "6",
     "category": "Otras tecnologías aprendidas",
-    "icon": "uil uil-arrow",
-    "ages": "6 meses",
-    "tuple": {"Python":30, "C++":30,"Haskell":30, "Prolog":30, "Wollok":30}
+    "icon": "uil-arrow",
+    "ages": "6 meses"
   }
 ],
 
@@ -223,8 +266,5 @@
     "description": "Website My cake your cakes  de la chef July, reconocida pastelera plant based de Colombia.",
     "link": "https://mycakesyourcakes.com/"
   }
-],
-  "whatsapp": "+54 9 (011) 5312-9350",
-  "email": "franciscoderamo@gmail.com",
-  "ubication": "Ciudad de Buenos Aires (Argentina)"
+]
 }
