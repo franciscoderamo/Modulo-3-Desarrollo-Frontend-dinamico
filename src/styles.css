@@ -84,6 +84,8 @@ body.dark-theme {
 }
 
 /*========== Modify BOOTSTRAP Styles ==========*/
+/* Progress Bar*/
+
 .progress-bar{
   background-color: var(--first-color);
 }
@@ -110,6 +112,12 @@ body.dark-theme {
   --bs-accordion-body-padding-y: 1rem;
   --bs-accordion-active-color: #fff0ff00;
   --bs-accordion-active-bg: #fff0ff00;
+}
+
+/* Modal*/
+
+.modal-title {
+  margin-left: 1rem;
 }
 
 
@@ -383,6 +391,7 @@ img {
 
 .button:hover{
   background-color: var(--first-color-alt);
+  color: #FFF;
 }
 
 .button__icon{
@@ -877,6 +886,10 @@ img {
   color: var(--text-color-light);
   margin-top: var(--mb-3);
 }
+.footer__title{
+  font-size: var(--h1-font-size);
+}
+
 .footer__title,
 .footer__subtitle,
 .footer__link,
@@ -1049,7 +1062,7 @@ img {
     margin-left: auto;
   }
   .change-theme {
-    margin: 0;
+    margin-bottom: 1rem;
   }
   .home__container {
     row-gap: 5rem;
@@ -1099,7 +1112,7 @@ img {
     font-size: 2rem;
   }
   .services__content {
-    padding: 6rem 0 2rem 2.5rem;
+    padding: 3rem 0 2rem 2.5rem;
   }
   .services__modal-content {
     width: 450px;
